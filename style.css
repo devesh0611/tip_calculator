@@ -1,0 +1,63 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+#container{
+    width:30%;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin:5px auto;
+    padding:10px 30px;
+    /* border:2px solid red; */
+}
+#billAmount{
+    margin:25px 0px;
+    padding:2px 10px;
+    height:35px;
+    border-radius: 10px;
+    /* width:100%; */
+}
+#numPeople{
+    margin:25px 0px;
+    padding:2px 10px;
+    height:35px;
+    border-radius: 10px;
+    /* width:100%; */
+}
+.radio_group{
+    display:flex;
+    flex-direction: row;
+    margin:15px;
+    gap:8px;
+}
+.conatiner label{
+    margin:25px;
+}
+#Button{
+    height:35px;
+    background-color: black;
+    color:white;
+    padding:4px 25px;
+    border-radius: 15px;
+    margin:10px 0px;
+}
+#display_tip{
+    margin:15px auto;
+    font-size: larger;
+    width:40%;
+    opacity:0;
+}
+#developer{
+    margin:25px auto;
+    font-size: medium;
+    font-weight: bolder;
+    width:60%;
+    font-style: italic;
+    color:black;
+}

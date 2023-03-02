@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Calculate tip with me!</h1>
+    <div id="container">
+        
+    <input type="number" id="billAmount" placeholder="Enter bill Amount" />
+    <label>How was your service?
+    <div class=radio_group><input type="radio" name="serviceQuality" value="0.3">Outstanding</input></div>
+    <div class=radio_group><input type="radio" name="serviceQuality" value="0.2">Good</input></div>
+    <div class=radio_group><input type="radio" name="serviceQuality" value="0.15">Okay</input></div>
+    <div class=radio_group><input type="radio" name="serviceQuality" value="0.1">Bad</input></div>
+    <div class=radio_group><input type="radio" name="serviceQuality" value="0.05">Terrible</input></div>
+    </label>
+    <input type="number" id="numPeople" placeholder="Enter total number of people" />
+    <button id="Button" onclick="calcTip()">Calculate Tip</button>
+    <div id="display_tip"></div>
+    <div id="developer">developed by Devesh Sharma</div>
+</div>
+</body>
+</html>
